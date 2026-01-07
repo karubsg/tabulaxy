@@ -1,0 +1,29 @@
+{
+    "name": "Tabulaxy - Galaktik Kelime Oyunu",
+    "short_name": "Tabulaxy",
+    "description": "iPhone ve mobil cihazlarda oynanan eğlenceli Tabu kelime oyunu",
+    "start_url": "/tabulaxy/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "theme_color": "#0f172a",
+    "background_color": "#0B0E14",
+    "lang": "tr",
+    "icons": [
+        {
+            "src": "/tabulaxy/icons/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/tabulaxy/icons/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": [
+        "games",
+        "entertainment"
+    ]
+}

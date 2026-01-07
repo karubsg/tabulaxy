@@ -1,0 +1,32 @@
+CWD: C:\Users\burak\Desktop\Tabulaxy Web App Version
+File read stats: 1146 lines
+{
+  "CLASSIC": {
+    "sections": {
+      "MEVCUT KOLAY/ORTA KELİMELER (~135 ADET)": 283,
+      "YENİ EKLENEN ZOR KELİMELER (GÜNCEL & TEKNOLOJİK) (~135 ADET)": 126,
+      "YENİ EKLENEN ÇOK ZOR KELİMELER (SOYUT & KAVRAMSAL) (~135 ADET)": 108,
+      "EXPERT SEVİYE KELİMELER (SOYUT, FELSEFİ, BİLİMSEL)": 235
+    },
+    "total": 752,
+    "duplicates": []
+  },
+  "SILENT": {
+    "sections": {
+      "Başlangıç": 274,
+      "YENİ EKLENEN HAREKET ODAKLI ZOR KELİMELER (~135 ADET)": 179,
+      "EXPERT SEVİYE HAREKETLER (KOMPLEKS VE DETAYLI)": 278
+    },
+    "total": 731,
+    "duplicates": []
+  },
+  "MARATHON": {
+    "sections": {
+      "Başlangıç": 380,
+      "YENİ EKLENEN ZOR/BİLİMSEL KELİMELER (~230 ADET)": 298,
+      "EXPERT SEVİYE MARATON KELİMELERİ (ESKİ TÜRKÇE, AKADEMİK, BİLİMSEL)": 358
+    },
+    "total": 1036,
+    "duplicates": []
+  }
+}

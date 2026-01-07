@@ -1,0 +1,38 @@
+name: Vite Uygulamasını Dağıt
+
+on:
+  push:
+    branches: ["main"] # Eğer ana dalın adı 'master' ise burayı master yap
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Node.js Kurulumu
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+      - name: Bağımlılıkları Kur
+        run: npm install
+      - name: Build Al
+        run: npm run build
+      - name: Pages Ayarlarını Yap
+        uses: actions/configure-pages@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './dist' # Vite varsayılan olarak 'dist' klasörüne build alır
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
